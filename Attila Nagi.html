@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by BMIMarius (http://jsbin.com/fuxoril/7/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>Attila Nagi</title>
+<style id="jsbin-css">
+/* Color Background CSS */
+
+.profile-card {
+  background-color: hsla(60,100%,50%,0);
+}
+.head {
+  background-color: hsla(120,100%,25%,0);
+}
+.content {
+  background-color: hsla(120,100%,25%,0);
+}
+.profile-image {
+  background-color: hsla(300,100%,50%,0);
+}
+.name-headline {
+  background-color: hsla(300,100%,50%,0);
+}
+.about {
+  background-color: hsla(300,100%,50%,0);
+}
+.links {
+  background-color: hsla(300,100%,50%,0);
+}
+ /*CSS RESET*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-size: 100%;
+}
+
+/* Pozitionarea */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+/* Centrare cu Flexbox */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centrarea containerelor si a 
+   continutului */
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Imagine de Profil */
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  }
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Linkuri de Contact */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* Adaugarea spatiilor Albe */
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+/* Adaugarea unei imagini de fundal */
+
+body {
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Formatarea cartii de vizita */
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+/* Adaugarea Marginilor */
+
+img {
+  padding: 1px;
+  background-color: #666;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+/* Schimbarea Interactiuni */
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+
+</style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="head">
+      <div class="profile-image"><img src="https://i.imgur.com/EcO1qil.jpg" title="Attila Nagi" alt="Attila Nagi"></div>
+      <div class="name-headline">
+        <h1>Attila Nagi</h1>
+        <h2>packaging designer</h2>
+        <p>from</p>
+        <p><i class="fa fa-map-marker" title="Location"></i> | Budapest , HU | <i class="fa fa-flag" title="Country"></i></p>
+      </div>
+    </div>
+      <div class="content">
+      <p class="about">
+        I love to fiddle with the tiny details of packaging design. You'll most likely find me on Twitter talking about design or photography or on Instagram where I post way too many photos of my beautiful cat #PrincessImre.
+      </p>
+      <section class="links">
+        <h3> Contact me Via : <span style='font-size:80px;'>🎄</span> </h3>
+        <ul>
+          <li><a href="https://twitter.com" title="Twiter"><i class="fa fa-twitter-square" style="font-size:30px;"></i></a></li>
+          <li><a href="https://www.behance.net/" title="Behance"><i class="fa fa-behance-square" style="font-size:30px;"></i></a></li>
+          <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram" style="font-size:30px;"></i></a></li>
+        </ul>
+      </section>
+        </div>
+  </div>
+</body>
+</html>
