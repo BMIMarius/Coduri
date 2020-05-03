@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by BMIMarius (http://jsbin.com/juciguw/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Components Project - Simple Footer">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Open+Sans:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Components Project - Simple Footer</title>
+<style id="jsbin-css">
+/*general setings*/
+
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/*simple footer*/
+
+footer {
+  background:
+url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  display: table;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Merriweather', serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer smal {
+  color: hsl(0,0%,100%);
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  color: hsl(0,100%,50%);
+  text-decoration: none;
+  margin: 0.5rem;
+  display: inline-block;
+}
+ 
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+</style>
+</head>
+<body>
+  <footer>
+    <div class="wrapper"><smal>©2017 <strong>Awesome Company</strong>, All Rights Reserved</smal>
+      <nav class="footer-nav">
+        <a href="#">Back to Top</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
