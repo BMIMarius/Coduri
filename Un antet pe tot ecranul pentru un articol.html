@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by BMIMarius (http://jsbin.com/beyidag/6/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Un antet pe tot ecranul pentru un articol">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Open+Sans:300&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Un antet pe tot ecranul pentru un articol</title>
+<style id="jsbin-css">
+/*general styles*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*full screen header*/
+
+.cover {
+  background:
+url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg')no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color:hsla(0,0%,75%,0.9);
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+
+.byline h2 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+
+.byline h3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.headline {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 1224px){
+  headline {
+    font-size: 6rem;
+  }
+}
+
+.tagline {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/*aricle styles*/
+
+section {
+  padding: 0 .625rem;
+}
+
+@media screen and (min-width: 1224px){
+  section{
+    width: 50%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+}
+
+section h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 2rem 0;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  color:
+}
+
+
+</style>
+</head>
+<body>
+<article>
+  <header class="cover">
+    <div class="wrapper">
+      <div class="byline">
+        <h2>By Samuel L</h2>
+        <h3>May 13th 2017</h3>
+      </div>
+      <h1 class="headline">The Lysine Contingency</h1>
+      <p class="tagline">"The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men."</p>
+    </div>
+  </header>
+  <section>
+    <h1>Do you see any Teletubbies in here?</h1>
+    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast,
+        we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+    <p>Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
+        what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</p>
+    <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole
+        does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p>
+    <p>Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger
+        those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
+  </section>
+</article>
+</body>
+</html>
