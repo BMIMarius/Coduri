@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by BMIMarius (http://jsbin.com/ragifig/11/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Soluția poziționării absolute">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Soluția poziționării absolute</title>
+<style id="jsbin-css">
+/*footer styles*/
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: hsla(0,0%,75%,1.0);
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: hsla(0,0%,100%,1.0);
+  font-family: monospace;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: hsla(0,100%,25%,1.0);
+  height: 200px;
+  width: 100vw;
+}
+
+.footer {
+  background: hsla(300,100%,25%,1.0);
+}
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="content">
+      <span>&lt;content&gt;</span>
+    </main>
+    <footer class="footer">
+      <span>&lt;footer&gt;</span>
+    </footer>
+  </div>
+</body>
+</html>
